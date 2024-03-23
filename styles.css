@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.btn #remove, #add {
+    /* background-image: linear-gradient(90deg, #ffc528, #fe742c); */
+    border: none;
+    border-radius: 100vw;
+    padding: 20px 0;
+    font-size: 15px;
+    width: 30%;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+.btn #number {
+    font-size: 2.5em;
+}
+
+.btn #add:hover {
+    background-color: green;
+}
+
+.btn #remove:hover {
+    background-color: red;
+}
